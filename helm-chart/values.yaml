@@ -18,39 +18,39 @@
 
 images:
   adservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/adservice
+    repository: ghcr.io/chimdi247/microservices-demo/adservice
     # Overrides the image tag whose default is the chart appVersion.
-    tag: v0.10.4
+    tag: sha-f6810af8ea20bbb9967be1494bb9eb340a04ffb7
   cartservice:
     repository: ghcr.io/laxmikantagiri/microservices-demo/cartservice
     tag: v0.10.4
   checkoutservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/checkoutservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/checkoutservice
+    tag: sha-ceb785d5c8a5782215c1e61265b60b81eb4b00ea
   currencyservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/currencyservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/currencyservice
+    tag: sha-439429b710ded9cdeb40de4de26870380b9e4372
   emailservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/emailservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/emailservice
+    tag: sha-9e94033e4320b7c64ea9d7cda0f0b298ebc4de63
   frontend:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/frontend
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/frontend
+    tag: sha-b44e3fee797fa736f52a665037d0753d812faa93
   loadgenerator:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/loadgenerator
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/loadgenerator
+    tag: sha-f60732d697d1f7b1def21d2e403b57c0d8a96707
   paymentservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/paymentservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/paymentservice
+    tag: sha-780c39276cc777039d9e3709f83838562a550487
   productcatalogservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/productcatalogservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/productcatalogservice
+    tag: sha-780c39276cc777039d9e3709f83838562a550487
   recommendationservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/recommendationservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/recommendationservice
+    tag: sha-26cea02805a33f63e009394df69cfe5b0075111c
   shippingservice:
-    repository: ghcr.io/laxmikantagiri/microservices-demo/shippingservice
-    tag: v0.10.4
+    repository: ghcr.io/chimdi247/microservices-demo/shippingservice
+    tag: sha-e2ad4ebfb8625d6ebdbb815b992ed87c18afc996
 
 serviceAccounts:
   # Specifies whether service accounts should be created.
