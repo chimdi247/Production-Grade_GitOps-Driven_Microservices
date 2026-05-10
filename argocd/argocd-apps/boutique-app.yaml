@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/chimdi247/Production-Grade_GitOps-Driven_Microservices.git
     targetRevision: main
-    path: .
+    path: "."
 
   destination:
     server: https://kubernetes.default.svc
