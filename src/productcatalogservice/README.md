@@ -17,7 +17,7 @@ show up in profiling tools: the `parseCatalog` function will take more than 80%
 of the CPU time.
 
 You can trigger this feature (and the delay) by sending a `USR1` signal and
-remove it (if needed) by sending a `USR2` signal:
+remove it (if needed) by sending a `USR2` signals:
 
 ```
 # Trigger bug
