@@ -8,8 +8,8 @@ spec:
 
   source:
     repoURL: https://github.com/chimdi247/Production-Grade_GitOps-Driven_Microservices.git
-    targetRevision: HEAD
-    path: kustomization.yaml
+    targetRevision: main
+    path: .
 
   destination:
     server: https://kubernetes.default.svc
