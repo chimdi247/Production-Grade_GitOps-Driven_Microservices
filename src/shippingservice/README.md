@@ -19,5 +19,5 @@ docker build ./
 ## Test
 
 ```
-go test .
+go test. .
 ```
